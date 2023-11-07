@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1697467124_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_7dd67f5c099ba06389fcce0b74d9420c80fdff48");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+header {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+div {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 15px;
+  display: flex;
+  color: white;
+  font-family: "Montserrat", regular;
+}
+
+img {
+  width: 10vh;
+  margin-bottom: 10%;
+}
+
+li {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  justify-content: space-evenly;
+  width: 52vw;
+  flex-direction: row-reverse;
+  margin-left: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 100vh;
+}
+.general {
+  width: 87vh;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+
+.logo {
+  width: 60vh;
+  position: relative;
+  top: 20rem;
+  left: 30em;
+}
+
+.botão {
+  width: 40vh;
+  position: relative;
+  top: 17rem;
+  left: 35em;
+}
